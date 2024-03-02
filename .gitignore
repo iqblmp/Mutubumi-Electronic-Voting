@@ -1,35 +1,34 @@
-# Dependensi
+# dependencies
 /node_modules
 /.pnp
 .pnp.js
+.yarn/install-state.gz
 
-# Pengujian
+# testing
 /coverage
 
-# Next.js
+# next.js
 /.next/
 /out/
 
-# Produksi
+# production
 /build
 
-# Misc
+# misc
 .DS_Store
 *.pem
 
-# Debug
+# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
 
-# File Lingkungan Lokal
+# local env files
 .env*.local
 
-# Vercel
+# vercel
 .vercel
 
-# TypeScript
+# typescript
 *.tsbuildinfo
 next-env.d.ts
-
