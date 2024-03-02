@@ -63,7 +63,7 @@ const Home: NextPage = () => {
             <Menu />
             {/* Header */}
             <div className="flex flex-col container mx-auto justify-center py-40 m-auto space-y-3">
-                <h1 className="text-center text-5xl font-bold">Mutubumi's Electronic Voting</h1>
+                <h1 className="text-center text-5xl font-bold">Mutubumi&apos;s Electronic Voting</h1>
                 <div className="text-center ">
                     <span className="text-lg bg-zinc-100 py-1 px-3 font-medium">Website Voting SMK Muhammadiyah Bumiayu</span>
                 </div>
