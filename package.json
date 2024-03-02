@@ -1,39 +1,41 @@
 {
-  "name": "jujurly",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@heroicons/react": "^2.0.12",
-    "@prisma/client": "^4.4.0",
-    "@types/react-datepicker": "^4.4.2",
-    "autoprefixer": "^10.4.12",
-    "heroicons": "^2.0.12",
-    "moment": "^2.29.4",
-    "next": "12.3.1",
-    "next-auth": "^4.14.0",
-    "postcss": "^8.4.18",
-    "prisma": "^4.4.0",
-    "react": "18.2.0",
-    "react-countdown": "^2.3.2",
-    "react-datepicker": "^4.8.0",
-    "react-dom": "18.2.0",
-    "sweetalert2": "^11.6.1",
-    "sweetalert2-react-content": "^5.0.5",
-    "swr": "^1.3.0",
-    "tailwindcss": "^3.1.8"
-  },
-  "devDependencies": {
-    "@types/node": "18.11.0",
-    "@types/react": "18.0.21",
-    "@types/react-dom": "18.0.6",
-    "eslint": "8.25.0",
-    "eslint-config-next": "12.3.1",
-    "typescript": "4.8.4"
-  }
+    "name": "mutubumi",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "postinstall": "prisma generate"
+    },
+    "dependencies": {
+        "@heroicons/react": "^2.0.12",
+        "@prisma/client": "^4.4.0",
+        "@types/react-datepicker": "^4.4.2",
+        "autoprefixer": "^10.4.12",
+        "heroicons": "^2.0.12",
+        "moment": "^2.29.4",
+        "mongodb": "^6.4.0",
+        "next": "12.3.1",
+        "next-auth": "^4.14.0",
+        "postcss": "^8.4.18",
+        "react": "18.2.0",
+        "react-countdown": "^2.3.2",
+        "react-datepicker": "^4.8.0",
+        "react-dom": "18.2.0",
+        "sweetalert2": "^11.6.1",
+        "sweetalert2-react-content": "^5.0.5",
+        "swr": "^1.3.0",
+        "tailwindcss": "^3.1.8"
+    },
+    "devDependencies": {
+        "@types/node": "18.11.0",
+        "@types/react": "18.0.21",
+        "@types/react-dom": "18.0.6",
+        "eslint": "8.25.0",
+        "eslint-config-next": "12.3.1",
+        "prisma": "^5.10.2",
+        "typescript": "4.8.4"
+    }
 }
